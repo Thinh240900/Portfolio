@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'basePortfolio/home.css' %}">
+</head>
+<body>
+<br>
+<div class="container-md container-fluid">
+
+    <div class="row align-items-stretch">
+        <div class="col-12 col-md-4 col-lg-3 mb-3 d-flex flex-column ">
+
+            <div class="card card-body text-center ">
+                <img class="rounded-circle mx-auto" style="width: 150px; height: 150px;"
+                     src="{% static 'basePortfolio/images/ava.jpeg' %}" alt="">
+                <hr>
+                <h4>Hi I'm Thịnh</h4>
+                <p>I love coding and making games, mainly focusing on Python and Unity.</p>
+            </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-9 mb-3 d-flex flex-column">
+            <div class="card card-body">
+                <h4>
+                    My first job at developer.
+                </h4>
+                <hr>
+                <p>
+                    Developed and maintained backend features for Odoo ERP, including custom modules, workflows, and
+                    data models. Wrote clean, efficient Python code to support business requirements and improve system
+                    functionality.
+                </p>
+                <p>
+                    Collaborated with the team to integrate third-party APIs and automate processes. Used SSH for remote
+                    server management and deployment, ensuring smooth updates and minimal downtime.
+                </p>
+                <p>
+                    Gained practical experience with Odoo framework, Python programming, and backend development.
+                    Strengthened skills in debugging, problem-solving, and working in a collaborative development
+                    environment.
+                </p>
+                <ul class="list-inline  gap-3">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/justin.simon.ruby/" target="_blank">
+                            <img class="social-pic" src="{% static 'basePortfolio/images/fb.png' %}" alt="Facebook pic">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/th%E1%BB%8Bnh-b%C3%A0nh-b9062a331/" target="_blank">
+                            <img class="social-pic" src="{% static 'basePortfolio/images/linkedin.png' %}" alt="Linkedin pic">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://leetcode.com/u/f5NgtAdMeC/" target="_blank">
+                            <img class="social-pic" src="{% static 'basePortfolio/images/leetcode.png' %}" alt="Leetcode pic">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/Thinh240900" target="_blank">
+                            <img class="social-pic" src="{% static 'basePortfolio/images/github.png' %}" alt="Github pic">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="row align-items-stretch">
+        <div class="col-12 mb-3 col-md-6 d-flex ">
+            <div class="card card-body w-100">
+                <h5>
+                    My Experiences as a Developer
+                </h5>
+                <hr>
+                <div class="row mb-4">
+                    <div class="col-md-8">
+                        <h5 class="fw-bold mb-1">CloudMedia</h5>
+                        <p class="fst-italic mb-1">Developer</p>
+                        <ul class="mb-0">
+                            <li><strong>Backend Development:</strong> Designed and implemented backend solutions using
+                                <strong>Python</strong> and <strong>Odoo</strong> to optimize business operations.
+                            </li>
+                            <li><strong>API Integration:</strong> Integrated multiple third-party APIs, including
+                                <strong>payment gateways</strong> and <strong>external services</strong>, to enhance
+                                system functionality.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 text-md-end">
+                        <p class="mb-1"><small><em>11/2021 – 04/2024</em></small></p>
+                        <p class="mb-0">Ho Chi Minh City</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 mb-3 col-md-6 d-flex ">
+            <div class="card card-body w-100">
+                <h5>
+                    What I Know
+                </h5>
+                <hr>
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>Python</li>
+                            <li>Django</li>
+                            <li>HTML/CSS</li>
+                            <li>FastAPI</li>
+                            <li>JavaScript / jQuery</li>
+                            <li>Unity</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-unstyled">
+                            <li>React</li>
+                            <li>PostgreSQL</li>
+                            <li>MongoDB</li>
+                            <li>AWS</li>
+                            <li>Git</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="d-flex justify-content-center">
+                    and more...
+                </p>
+                <p>
+                    PS: I'm currently working on Django, Unity and Amazon Web Services.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="overflow-auto" style="max-height: 450px;">
+                <div class="card card-body">
+
+                    <h5>
+                        My Projects
+                    </h5>
+                    <hr>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Hong Tra Ngo Gia (Attendance & Payroll System)</strong> <small>(Developer-Job)</small>
+                            </h5>
+                            <small class="text-muted">2023</small>
+                        </div>
+                        <p class="mb-1"><em>Developed an attendance tracking and payroll computation system with
+                            automated
+                            rule enforcement.</em></p>
+                        <ul>
+                            <li>Tools & technologies used: Python, Odoo</li>
+                            <li>Gathered requirements from business analysts to define attendance and payroll rules.
+                            </li>
+                            <li>Designed and implemented a rule-based model to manage check-in, check-out, and salary
+                                calculations.
+                            </li>
+                            <li>Applied rules dynamically based on employee positions and contract terms.</li>
+                            <li>Developed exception handling for holidays and special cases.</li>
+                            <li>Automated salary computation, ensuring compliance with contracts and attendance data.
+                            </li>
+                            <li>Conducted thorough testing, identified bugs, and implemented fixes for system stability.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Cang Thanh Phuoc (Trucks In-Out Management System)</strong> <small>(Developer-Job)</small>
+                            </h5>
+                            <small class="text-muted">2023</small>
+                        </div>
+                        <p class="mb-1"><em>Developed a time management and fee calculation system for truck entry and
+                            exit
+                            operations.</em></p>
+                        <ul>
+                            <li>Tools & technologies used: Python, Odoo</li>
+                            <li>Collaborated with business analysts to define project requirements and align business
+                                rules.
+                            </li>
+                            <li>Designed and implemented a unified solution to standardize truck in-out processes and
+                                fee
+                                structures.
+                            </li>
+                            <li>Developed and deployed the system within the Odoo framework.</li>
+                            <li>Conducted on-site testing to ensure system accuracy and efficiency.</li>
+                            <li>Refined business rules based on feedback and maintained the system for long-term
+                                reliability.
+                            </li>
+                            <li>Set up and configured an Odoo server with PostgreSQL SSL for secure data management.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Music Show Ticket Booking System</strong>
+                                <small>(Developer-Project)</small>
+                            </h5>
+                            <small class="text-muted">2024</small>
+                        </div>
+                        <p class="mb-1"><em>Developed a full-stack web application for managing music shows, seating,
+                            bookings, and online payments.</em></p>
+                        <ul>
+                            <li>Tools & technologies used: Node.js, React.js, MongoDB</li>
+                            <li>Designed a mind map, gathered requirements, and outlined project expectations.</li>
+                            <li>Implemented a management system for music shows, stages, seat reservations, and
+                                bookings.
+                            </li>
+                            <li>Integrated online payment functionality for seamless transactions.</li>
+                            <li>Conducted testing to ensure a smooth user experience and system reliability.</li>
+                            <li>Collected feedback and iterated on improvements for better performance and usability.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Personal Blog Platform</strong> <small>(Developer-Project)</small>
+                            </h5>
+                            <small class="text-muted">2024</small>
+                        </div>
+                        <p class="mb-1"><em>Developed a full-featured blog application with user authentication and
+                            content
+                            management.</em></p>
+                        <ul>
+                            <li>Tools & technologies used: Django, PostgreSQL, Bootstrap</li>
+                            <li>Built user authentication (signup, login, password reset) using Django’s auth system.
+                            </li>
+                            <li>Designed a rich text editor for creating and formatting posts.</li>
+                            <li>Implemented comments, tags, and category filtering for better navigation.</li>
+                            <li>Added an admin dashboard to manage posts, users, and site content.</li>
+                            <li>Deployed on Render with environment variables for secure configuration.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Flappy Bird Clone</strong> <small>(Game Developer-Project)</small>
+                            </h5>
+                            <small class="text-muted">2023</small>
+                        </div>
+                        <p class="mb-1"><em>Created a Flappy Bird clone game to learn game mechanics and Unity
+                            physics.</em>
+                        </p>
+                        <ul>
+                            <li>Tools & technologies used: Unity, C#</li>
+                            <li>Implemented character movement and collision detection using Unity Rigidbody2D.</li>
+                            <li>Developed endless scrolling background and obstacle generation logic.</li>
+                            <li>Added score tracking, UI panels, and game restart functionality.</li>
+                            <li>Exported and tested game on both desktop and Android builds.</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h5 class="mb-0"><strong>Online Book Store</strong> <small>(Developer-Project)</small></h5>
+                            <small class="text-muted">2023</small>
+                        </div>
+                        <p class="mb-1"><em>Developed a Java-based web application to browse, search, and purchase books
+                            online.</em></p>
+                        <ul>
+                            <li>Tools & technologies used: Java, Spring Boot, MySQL, JSP</li>
+                            <li>Implemented user registration, login, and shopping cart functionality.</li>
+                            <li>Created book catalog with search and filtering by author, category, and price.</li>
+                            <li>Integrated checkout process with order confirmation and email notification.</li>
+                            <li>Designed responsive UI using JSP and Bootstrap for better user experience.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="row align-items-stretch">
+        <div class="col-12 col-md-6 mb-3 d-flex flex-column">
+            <div class="card card-body">
+                <h5>
+                    How I Learn
+                </h5>
+                <hr>
+                <p>
+                    I learn by reading, studying, and hands-on practice. I regularly use YouTube tutorials, Udemy
+                    courses, official documentation, and ChatGPT to explore programming languages and frameworks like
+                    Django. I apply this knowledge by working on personal projects, experimenting with new tools, and
+                    improving my problem-solving skills.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 mb-3 d-flex flex-column">
+            <div class="card card-body">
+                <h5>
+                    My Short Term Goal
+                </h5>
+                <hr>
+                <p>
+                    I plan to become a senior Django developer and create five small games in Unity within the next six
+                    months. I am currently building backend projects with Django and developing interactive gameplay in
+                    Unity. My goal is to deepen my expertise in these technologies, strengthen my problem-solving
+                    skills, and build a strong portfolio that showcases both web development and game development
+                    capabilities.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
