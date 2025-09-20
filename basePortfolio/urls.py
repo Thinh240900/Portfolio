@@ -6,4 +6,5 @@ app_name = "basePortfolio"
 
 urlpatterns = [
     path('', views.HomePageView.as_view(), name='home'),
+    path('health', views.health)
 ]
